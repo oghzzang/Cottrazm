@@ -24,7 +24,7 @@
 #' TumorST <- STCNVScore(TumorST = TumorST, assay = assay, OutDir = OutDir, Sample = Sample)
 #'
 STCNVScore <- function(TumorST = TumorST,
-                       assay = c("Saptial","Morph"),
+                       assay = c("Spatial","Morph"),
                        OutDir = NULL,
                        Sample = Sample) {
 
